@@ -14,10 +14,10 @@
 - **activity-selection problem**
   - 按照结束时间升序排列，每次选取结束时间最早的作为optimal choices
   ![alt text](pic/activity_select.png)
-  时间复杂度：$O(n\cdot logn)$
+  时间复杂度：$`O(n\cdot logn)`$
 - **scheduling problem**
   - ratio cost/time as greedy choice，按照比率升序排列
-  - 时间复杂度：$O(n \cdot logn)$
+  - 时间复杂度：$`O(n \cdot logn)`$
     基本上时间复杂度只与选择的排序算法有关
   ![alt text](pic/scheduling-select.png)
 - **huffman tree problem**
