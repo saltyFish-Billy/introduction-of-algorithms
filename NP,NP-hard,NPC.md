@@ -32,7 +32,7 @@
   reduction：Clique Problem $\leq _p$ independent set
   A graph $G$ has a clique of size $k$ $\iff$ $G_c$ has a vertex cover of size $|V| - k$,一定要双向证明
   设clique里的点的集合为 $V^{'}$, $|V^{'}|=k$
-  取原图 $G$ 的补图 $G_C$ , 新添加的边 $\{u,v\}$ 一定有一个点不属于 $V^{'}$, 所以 $u \space or\space  v $ 一定有一个属于集合 $V -V^{'}$ ,那么 $V -V^{'}$ 就构成了 补图 $G_C$ 的vertex cover(因为补图所有边已经在上一步证明了一定包含 $V -V^{'}$)
+  取原图 $G$ 的补图 $G_C$ , 新添加的边 $\{u,v\}$ 一定有一个点不属于 $V^{'}$, 所以 $`u \space or\space  v `$ 一定有一个属于集合 $V -V^{'}$ ,那么 $V -V^{'}$ 就构成了 补图 $G_C$ 的vertex cover(因为补图所有边已经在上一步证明了一定包含 $V -V^{'}$)
 
   反过来，...
 
