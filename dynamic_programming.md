@@ -17,7 +17,7 @@
   [对空间复杂度进行优化，只需要维护一维数组](https://takeuforward.org/data-structure/0-1-knapsack-dp-19/)
   ![alt text](pic/prev_cur.png)
   ![alt text](pic/space_opt.png)  
-  - 时间复杂度：$O(n*W)$ ,但是因为内存原因，其实是指数量级增长的, $O(n^2)$
+  - 时间复杂度：$`O(n*W)`$ ,但是因为内存原因，其实是指数量级增长的, $`O(n^2)`$
 
 - **rob cutting**
 
