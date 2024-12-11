@@ -10,6 +10,7 @@
     - 如果边能够连接孤立的群，add
     - 如果不能，skip
     - 直到只剩下1个群
+  - 可以用union-find data structure 实现
 
 - **activity-selection problem**
   - 按照结束时间升序排列，每次选取结束时间最早的作为optimal choices
@@ -24,6 +25,9 @@
   - 每次选频率最小的两个建树，得到频率和，加入到优先队列维护
   - iterate
 - **A star search**
+  greedy function: f(n) = g(n) + h(n)
+  g(n): s $\rightarrow$ n 的距离
+  f(n): n $\rightarrow$ t 的距离
 - **coin changing problem
   求最小找零钞票/硬币总数
   跟面额集合有关，例如{1，5，10，50}就可以用“每次选择最大面额”求解，而{1，3，4}就不行，转而用DP解决。
